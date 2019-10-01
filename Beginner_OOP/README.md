@@ -313,3 +313,30 @@ class Dog:
 ### Encapsulation
 
 ### Polymorphism
+Polymorphism is the ability of an object to take on many forms. In laymans language we can say that its is the ability to use the same thing for different purposes.
+#!/usr/bin/env python
+
+class Human:
+
+    def sayHello(self, name=None):
+    
+        if name is not None:
+            print('Hello ' + name)
+        else:
+            print('Hello ')
+        
+
+# Create instance
+obj = Human()
+    
+# Call the method
+obj.sayHello()
+    
+# Call the method with a parameter
+obj.sayHello('Guido')
+
+    >Hello
+    Hello Guido
+
+
+
